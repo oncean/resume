@@ -1,8 +1,10 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  base:"./",
-  publicPath:'./',
+  publicPath:process.env.NODE_ENV === 'production' ? '/resume/dist/' : '/',
+  history:{
+    type:"hash"
+  },
   nodeModulesTransform: {
     type: 'none',
   },
