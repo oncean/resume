@@ -24,6 +24,8 @@ export default () => {
           style={{
             fontSize: 30,
             fontWeight: 'bold',
+            marginBottom: 10,
+            marginTop:10
           }}
         >
           王伟康

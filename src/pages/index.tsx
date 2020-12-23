@@ -16,6 +16,7 @@ export default () => {
         margin:'auto',
         color: '#333',
         lineHeight: '25px',
+        fontFamily:'Microsoft YaHei'
       }}
     >
       <div
