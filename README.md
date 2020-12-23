@@ -1,15 +1,4 @@
-# umi project
+# 王伟康的个人简历
 
-## Getting Started
+## [查看](https://oncean.github.io/resume/dist/index.html)
 
-Install dependencies,
-
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```
