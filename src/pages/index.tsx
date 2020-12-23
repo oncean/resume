@@ -13,6 +13,7 @@ export default () => {
     <div
       style={{
         width: 800,
+        margin:'auto',
         color: '#333',
         lineHeight: '25px',
       }}
@@ -167,6 +168,7 @@ export default () => {
         </Panel>
 
         <Panel title="自我评价" top={0}>
+          <Dot>具有2年左右管理经验，熟悉端到端开发，熟悉软件开发流程。</Dot>
           <Dot>工作认真，有良好的团队合作精神，能迅速融入团队。</Dot>
           <Dot>具有较强的责任感，具有一定的管理经验。</Dot>
           <Dot>喜欢钻研新的技术，具有较强的自学能力。</Dot>

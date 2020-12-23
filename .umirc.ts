@@ -1,7 +1,8 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  base:"/resume/dist",
+  base:"./",
+  publicPath:'./',
   nodeModulesTransform: {
     type: 'none',
   },
