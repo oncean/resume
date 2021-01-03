@@ -1,7 +1,13 @@
 import React from 'react';
 import Avatar from './components/Avatar';
 import { Row, Col } from 'antd';
-import { MobileFilled, MailFilled, EnvironmentFilled } from '@ant-design/icons';
+import {
+  MobileOutlined,
+  MobileFilled,
+  MailFilled,
+  EnvironmentFilled,
+  UserOutlined,
+} from '@ant-design/icons';
 import styles from './index.less';
 import { widthPadding, commonPadding } from './Constants';
 
@@ -16,21 +22,24 @@ export default () => {
         className={styles.colorBack}
         span={10}
         style={{
-          padding: 20,
           paddingLeft: widthPadding,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
         }}
       >
-        <div
-          style={{
-            fontSize: 30,
-            fontWeight: 'bold',
-            marginBottom: 10,
-            marginTop:10
-          }}
-        >
-          王伟康
+        <div>
+          <div
+            style={{
+              fontSize: 30,
+              fontWeight: 'bold',
+              marginBottom: 20,
+            }}
+          >
+            王伟康
+          </div>
+          <div>求职意向：开发工程师</div>
         </div>
-        <div>求职意向：开发工程师</div>
       </Col>
       <Col
         style={{
@@ -42,7 +51,7 @@ export default () => {
         span={14}
       >
         <div style={{}}>
-          <MobileFilled className={styles.iconTop} />
+          <MobileOutlined className={styles.iconTop} />
           <span>17612520975</span>
         </div>
         <div>
@@ -53,14 +62,20 @@ export default () => {
           <EnvironmentFilled className={styles.iconTop} />
           <span>江苏 南京</span>
         </div>
+        <div>
+          <UserOutlined className={styles.iconTop} />
+          <span>25岁 未婚</span>
+        </div>
       </Col>
-      <Avatar
-        style={{
-          position: 'absolute',
-          bottom: 20,
-          right: widthPadding,
-        }}
-      />
+      {false && (
+        <Avatar
+          style={{
+            position: 'absolute',
+            bottom: 20,
+            right: widthPadding,
+          }}
+        />
+      )}
     </Row>
   );
 };
