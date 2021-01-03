@@ -60,7 +60,7 @@ export default () => {
         </div>
         <div>
           <EnvironmentFilled className={styles.iconTop} />
-          <span>江苏 南京</span>
+          <span>江苏 南京 江宁区</span>
         </div>
         <div>
           <UserOutlined className={styles.iconTop} />

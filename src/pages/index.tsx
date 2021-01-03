@@ -51,17 +51,15 @@ export default () => {
             4年半Web系统开发经验，熟悉前后端多种技术，在工作中能够高效沟通并解决问题。
           </Dot>
           <Dot>
-            熟悉SpringBoot、Spring、Spring
-            Security、MyBatis，了解容器化技术Docker，使用过Docker-compose编排组件。
+            熟悉SpringBoot、Spring Security、MyBatis，了解docker、Docker-compose等技术。
           </Dot>
           <Dot>
-            熟悉Vue、React、NodeJs、TypeScript，熟练使用Ant
-            Design、ElementUI等组件库，熟练使用echarts、highcharts等图表库。
-          </Dot>
-          <Dot>
-            熟悉SpringCloud，了解nacos、gateway、openFeign、zookeeper、Dubbo、Zookeeper等相关组件。
+            熟悉SpringCloud，了解nacos、gateway、openFeign、Kafka、Zookeeper等相关组件。
           </Dot>
           <Dot>熟悉redis、mysql等数据库，熟练编写sql脚本。</Dot>
+          <Dot>
+            熟练使用Vue、React、JS、TypeScript等前端开发语言。
+          </Dot>
           <Dot>熟练使用Git、熟悉常用的Shell命令。</Dot>
         </Panel>
         <Panel title="工作经验">
@@ -86,12 +84,10 @@ export default () => {
               域数据，生成分析后的数据，进行图表绘制和展示。
             </Tab>
             <Tab name="系统框架">
-              后端采用SpringCloud相关组件，包括SpringGateway、Nacos、SpringSecurity、openFeign、mysql等。
-              前端采用 vue 框架，UI
-              组件采用elementUI、antDeign、highcharts图表等；
+              后端采用SpringCloud相关组件，包括SpringGateway、Nacos、SpringSecurity、openFeign、mysql、kafka等。
+              前端采用 vue 框架；
             </Tab>
             <Tab name="个人职责">
-              <Dot>构建前端vuecli开发框架，封装公共模块，编写多局点业务。</Dot>
               <Dot>
                 设计系统权限框架，通过用户-角色-权限的关联方式实现权限动态配置。
               </Dot>
@@ -101,8 +97,14 @@ export default () => {
                 阅读源码接口，解決资源服务器无法获取内置权限的问题。
               </Dot>
               <Dot>
-                封装axios网络请求组件，实现网络请求统一拦截管理，对异常场景统一处理，
+                使用Spring Cloud Stream集成Kafka作为消息中间件，接受IPO团队收集推送的网络数据。
+              </Dot>
+              <Dot>
+                构建前端vuecli开发框架，封装axios网络请求组件，实现网络请求统一拦截管理，对异常场景统一处理，
                 设计接口，实现加载可配置。
+              </Dot>
+              <Dot>
+                参与前后台业务开发，编写多个局点业务。
               </Dot>
             </Tab>
           </Project>
@@ -116,7 +118,7 @@ export default () => {
             <Tab name="系统框架">
               前台采用 tinyUi 框架，华为对于 angularjs 封装的一套 ui
               框架,使用echatrs作为图表组件；后台使用微服务架构，各个微服务所使用的技术不一致，
-              包括 springboot、spring、springmvc、springjpa、mybatis等；
+              包括 springboot、spring、springjpa、mybatis等；
               使用缓存 redis、消息队列 kafka 等
             </Tab>
             <Tab name="个人职责">
@@ -138,7 +140,7 @@ export default () => {
             </Tab>
             <Tab name="系统框架">
               前台采用 angularjs 开发；后台使用SpringMVC；使用缓存
-              redis、消息队列 kafka 等
+              redis、数据库oracle等
             </Tab>
             <Tab name="个人职责">
               <Dot>负责前后台业务编写。</Dot>
@@ -156,7 +158,7 @@ export default () => {
             }}
           >
             <div>2012.9-2016.7</div>
-            <div>沈阳工业大学/本科</div>
+            <div>沈阳工业大学/一本(统招)</div>
             <div>计算机科学与技术</div>
           </div>
           <div>
