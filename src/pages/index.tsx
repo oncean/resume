@@ -163,12 +163,28 @@ export default () => {
               息管理，包括合作伙伴注册、登录以及签约管理。
             </Tab>
             <Tab name="系统框架">
-              前台采用 angularjs 开发；后台使用SpringMVC；使用缓存
-              redis、数据库oracle等
+            使用eclipse、webstorm、oracle、tomcat进行开发；前台使用angularJS框架编写页面，使用dsf框架编写服务；使用spring框架进行AOP编程、接口编写。
             </Tab>
             <Tab name="个人职责">
-              <Dot>负责前后台业务编写。</Dot>
+              <Dot>合作伙伴项目签约页面编写，后台签约流程编写，签约相关接口编写，创建项目基本信息表以及DAO层编写。</Dot>
+              <Dot>运用POI编写excel操作公共类，签约工作流编写</Dot>
               <Dot>负责现网问题的定位与修改。</Dot>
+              <Dot>搭建小组开发环境，新员工培养管理小组成员，控制整体开发进度。</Dot>
+            </Tab>
+          </Project>
+          <Project time="2015.08-2016.03" name="北京银行合同审批业务系统">
+            <Tab name="项目描述">
+            本项目主要对北京银行的合同进行管理，提供合同流程审批操作，使用普元EOS平台、oracle、tomcat进行开发。
+            </Tab>
+            <Tab name="系统框架">
+              使用eos平台进行开发，主要使用java语言，前端包括jquery。
+            </Tab>
+            <Tab name="个人职责">
+              <Dot>参与模块的设计与开发，设计工作流。</Dot>
+              <Dot>编写工作流配置管理页面，运用平台工作流组建编写后台审批操作代码。</Dot>
+              <Dot>
+              负责银行内部普元EOS平台的技术支持、老系统的现网维护。
+              </Dot>
             </Tab>
           </Project>
         </Panel>
