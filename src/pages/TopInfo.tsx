@@ -38,7 +38,7 @@ export default () => {
           >
             王伟康
           </div>
-          <div>求职意向：开发工程师</div>
+          <div>求职意向：JAVA开发工程师</div>
         </div>
       </Col>
       <Col
@@ -64,7 +64,7 @@ export default () => {
         </div>
         <div>
           <UserOutlined className={styles.iconTop} />
-          <span>25岁 未婚</span>
+          <span>26岁 未婚</span>
         </div>
       </Col>
       {false && (
